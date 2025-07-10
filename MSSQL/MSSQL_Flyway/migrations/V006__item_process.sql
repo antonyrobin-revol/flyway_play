@@ -1,0 +1,22 @@
+﻿SET NUMERIC_ROUNDABORT OFF
+GO
+SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+PRINT N'Creating [dbo].[AddItem]'
+GO
+CREATE OR ALTER PROCEDURE [dbo].[AddItem]
+    @id INT,
+    @name VARCHAR(100)
+AS
+BEGIN
+    INSERT INTO items (id, name)
+    VALUES (@id, @name);
+END;
+GO
+PRINT N'Creating [dbo].[vw_items]'
+GO
+CREATE VIEW [dbo].[vw_items] AS
+SELECT id, name
+FROM items;
+GO
+
