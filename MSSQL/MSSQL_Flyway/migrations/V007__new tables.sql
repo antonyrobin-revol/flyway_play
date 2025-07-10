@@ -1,0 +1,21 @@
+﻿SET NUMERIC_ROUNDABORT OFF
+GO
+SET ANSI_PADDING, ANSI_WARNINGS, CONCAT_NULL_YIELDS_NULL, ARITHABORT, QUOTED_IDENTIFIER, ANSI_NULLS ON
+GO
+PRINT N'Creating [dbo].[clients]'
+GO
+CREATE TABLE [dbo].[clients]
+(
+[id] [INT] NOT NULL,
+[name] [VARCHAR] (100) NOT NULL
+)
+GO
+PRINT N'Creating [dbo].[roles]'
+GO
+CREATE TABLE [dbo].[roles]
+(
+[id] [INT] NOT NULL,
+[name] [VARCHAR] (100) NOT NULL
+)
+GO
+
