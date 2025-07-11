@@ -1,0 +1,1 @@
+DELETE FROM CmnCodeMaster WHERE Type IN ('AI Documents', 'AI Suggestions', 'Prediction Type');

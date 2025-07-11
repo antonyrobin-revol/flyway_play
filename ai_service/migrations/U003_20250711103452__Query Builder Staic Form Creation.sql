@@ -1,0 +1,1 @@
+DELETE FROM CmnFormDetails WHERE Name = 'Query Builder';
