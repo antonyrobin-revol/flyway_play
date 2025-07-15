@@ -1,0 +1,1 @@
+DELETE FROM CmnFormDetails WHERE FormID IN (100, 200);
