@@ -1,1 +1,1 @@
-DELETE FROM CmnCodeMaster WHERE Type IN (Data Type'');
+DELETE FROM CmnCodeMaster WHERE Type IN ('Data Type');
