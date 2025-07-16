@@ -1,0 +1,7 @@
+[environments.development]
+user = "sa"
+password = "${localSecret.Flyway Desktop 56aa5faf-46ec-46db-8405-ff7c5a2adc30}"
+
+[environments.target1]
+user = "sa"
+password = "${localSecret.Flyway Desktop 1e7c9a62-3a93-417b-adc9-363bf4d3117e}"
